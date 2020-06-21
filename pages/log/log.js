@@ -1,29 +1,20 @@
-// 得到小程序创建的实例对象
-var app = getApp()
-const name = app.globalData.name
-const age = app.globalData.age
-
-
-console.log(name)
-console.log(age)
-
 Page({
 
+  // 2. 初始化数据
   /**
    * 页面的初始数据
    */
   data: {
-  },
-  // 获取用户信息的第二种方式 
-  getInfo(info) {
-    console.log(info)
+    name: 'meng',
+    age: 18
   },
 
+  // 1. 监听生命周期函数
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
@@ -54,6 +45,13 @@ Page({
     
   },
 
+  // 3. 监听 WXML 中的事件
+  handleButtonClick: function() {
+    console.log('按钮被点击了')
+  },
+
+
+  // 4. 其它事件
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */

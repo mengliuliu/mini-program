@@ -1,13 +1,7 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+<view>index页面</view>
+
+<!-- 获取用户信息的第二种方式 -->
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="getInfo">获取用户信息</button>
+
+<!-- 获取用户信息的第三种方式 -->
+<open-data type="userNickName"></open-data>
