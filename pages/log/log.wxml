@@ -1,2 +1,1 @@
 <view>log页面</view>
-<button size="mini" bindtap="handleButtonClick">按钮</button>

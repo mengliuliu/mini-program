@@ -1,11 +1,3 @@
-// 得到小程序创建的实例对象
-var app = getApp()
-const name = app.globalData.name
-const age = app.globalData.age
-
-
-console.log(name)
-console.log(age)
 
 Page({
 
@@ -13,10 +5,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-  },
-  // 获取用户信息的第二种方式 
-  getInfo(info) {
-    console.log(info)
   },
 
   /**

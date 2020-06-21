@@ -1,7 +1,1 @@
 <view>index页面</view>
-
-<!-- 获取用户信息的第二种方式 -->
-<button size="mini" open-type="getUserInfo" bindgetuserinfo="getInfo">获取用户信息</button>
-
-<!-- 获取用户信息的第三种方式 -->
-<open-data type="userNickName"></open-data>
