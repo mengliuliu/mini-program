@@ -1,0 +1,27 @@
+<!--pages/button/button.wxml-->
+
+<!-- 注意点：
+        button 是块级元素，当给 button 设置 size 属性时，button 就变成行内块元素
+ -->
+
+<!-- 1. button 的基本使用 -->
+<button>按钮</button>
+
+<!-- 2. size: mini -->
+<button size="mini">size</button>
+<button size="mini">size</button>
+
+<!-- 3. type: primary -->
+<button type="primary">type</button>
+
+<!-- 4. plain: 镂空效果 -->
+<button plain>plain</button>
+
+<!-- 5. disable: 不可用 -->
+<button disabled>disabled</button>
+
+<!-- 6. loading:  -->
+<button loading>loading</button>
+
+<!-- 7. hover-class: '类名' -->
+<button hover-class="pressed">hover-class</button>
