@@ -1,0 +1,27 @@
+/* pages/scroll/scroll.wxss */
+.container1 {
+  background-color: red;
+  /* display: flex;
+  flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+  white-space: nowrap;
+}
+.item1 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 10px;
+}
+
+.container2 {
+  background-color: grey;
+  margin-top: 20px;
+  height: 200px;
+}
+.item2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 10px;
+}

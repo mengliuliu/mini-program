@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/scroll/scroll",
+    "pages/input/input",
+    "pages/image/image",
+    "pages/view/view",
     "pages/index/index",
     "pages/log/log"
   ]
