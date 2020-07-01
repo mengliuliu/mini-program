@@ -1,0 +1,14 @@
+/* pages/home/childCmps/m-tab-control/m-tab-control.wxss */
+.tab-control {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10rpx;
+}
+.tab-item {
+  padding: 20rpx;
+  border-bottom: 10rpx solid #999;
+}
+.active {
+  color: #ff5777;
+  border-bottom: 10rpx solid #ff5777;
+}

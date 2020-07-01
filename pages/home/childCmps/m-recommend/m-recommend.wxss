@@ -1,0 +1,18 @@
+/* pages/home/childCmps/m-recommend/m-recommend.wxss */
+.recommend {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20rpx;
+  border-bottom: 20rpx solid #eee;
+  padding-bottom: 20rpx;
+}
+.recommend-item {
+}
+.recommend-item image {
+  width: 135rpx;
+  height: 135rpx;
+}
+.recommend-item view {
+  color: #aaa;
+  font-size: 30rpx;
+}

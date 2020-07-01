@@ -1,0 +1,21 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<!-- 1. 展示轮播图 -->
+<m-swiper list="{{ banners }}"/>
+
+<!-- 2. 展示推荐数据 -->
+<m-recommend list="{{ recommends }}"/>
+
+<!-- 3. 展示本周流行 -->
+<m-popular/>
+
+<!-- 4. 展示 tab-control -->
+<m-tab-control titles="{{titles}}" bind:titleClick="handleClick"/>
+
+<!-- 5. 展示商品数据 -->
+<m-goods goods="{{goods[currentType].list}}"/>
+
+<!-- 6. 点击回到顶部 -->
+<!-- hidden属性对于自定义组件无效 -->
+<m-back-top bind:tap="handleBackTop" wx:if="{{showBackTop}}"/>
+

@@ -1,0 +1,4 @@
+<!--pages/home/childCmps/m-back-top/m-back-top.wxml-->
+<view class="back-top">
+  <image src="/assets/common/top.png"></image>
+</view>
